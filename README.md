@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue with Lua's `pairs` iterator.  The `pairs` function does not guarantee a specific iteration order, and modifying the table during iteration can lead to unpredictable results.  The `bug.lua` file contains code that illustrates this problem. The `bugSolution.lua` file provides a solution using a different iteration technique.
